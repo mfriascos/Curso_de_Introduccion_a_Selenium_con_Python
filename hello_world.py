@@ -1,6 +1,6 @@
-import unittest
-from pyunitreport import HTMLTestRunner
-from selenium import webdriver
+import unittest                             #*Esta libreria nos sirve para traer todas las pruebas
+from pyunitreport import HTMLTestRunner     #*Orquestar cada uno de los reportes
+from selenium import webdriver              #*Se importa este módulo para poder comunicarse con el navegador
 
 class HelloWorld(unittest.TestCase):
     #*setUp ejecutará todo lo necesario antes de hacer una prueba
@@ -13,7 +13,7 @@ class HelloWorld(unittest.TestCase):
 
     #*Este es un caso de prueba donde se realizará una serie de acciones para que el navegador automatice
     def test_hello_world(self):     #*Es importante escribir la palabra test, para que el interprete lo tenga en cuenta 
-        driver = self.driver
+        driver = self.driver        #*Se renombra driver, para no escribir self en cada línea 
         driver.get('https://www.platzi.com')
     
     def test_visit_wikipedia(self):

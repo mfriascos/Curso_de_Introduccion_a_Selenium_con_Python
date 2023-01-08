@@ -91,4 +91,17 @@ pip3 install selenium
 pip3 install pyunitreport
 ```
 
+# Hola Mundo
+
+<h2> Unittest (PyTest) </h3>
+
+* **Test Fixture**: Preparaciones para antes y después de la prueba 
+* **Test Case**: Unidad de código a probar
+* **Test Suite**: Colección de test cases
+* **Test Runner**: Orquestador de la ejecución 
+* **Test Report**: Resumen de resultados
+
+
+
+
 
