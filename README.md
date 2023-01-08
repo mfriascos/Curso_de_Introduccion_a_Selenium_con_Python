@@ -76,3 +76,19 @@ El objetivo de Selenium NO fue para el **Testing** ni para el **Web Scraping** (
 * Funciona sólo en chrome y con Javascript
 * Pruebas en paralelo sólo en versión de pago 
 
+# Configurar Entorno de Trabajo 
+
+<h2> Instalaciones </h2>
+
+* Python 3.6 en adelante 
+* Selenium 
+* PyUnitReport que es una libreria que permitirá enviar reportes en html para poder obtener datos y analizar 
+
+<h3> Comandos </h3>
+
+```sh
+pip3 install selenium
+pip3 install pyunitreport
+```
+
+
