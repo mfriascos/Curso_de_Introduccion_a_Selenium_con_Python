@@ -27,10 +27,11 @@
 <h2>CONTENT LIST</h2>
 
 - [Historia de Selenium](#historia-de-selenium)
+- [Otras Herramientas de Testing y Automatizacion](#otras-herramientas-de-testing-y-auomatización)
 
 # Historia de Selenium 
 
-<h3>¿Qué es Selenium?</h3>
+<h2>¿Qué es Selenium?</h2>
 
 Es una **SUIT de herramientas** para la automatización de navegadores Web. 
 
@@ -43,4 +44,35 @@ El objetivo de Selenium NO fue para el **Testing** ni para el **Web Scraping** (
 - Selenium No es un software, Es una suit de softwares. 
 
 * **DDT: Data Drive Testing**: Ingresar datos para que realice varias prubas (Sin intervención humana)
+
+# Otras Herramientas de Testing y Auomatización 
+
+<h2>Puppeteer</h2>
+
+<h3>Pros</h3>
+
+* Soporte por parte de Google 
+* Datos del Performance analysis de Chrome
+* Mayor control de Chrome
+* No requiere de drivers externos 
+
+<h3>Contras</h3>
+
+* Funciona sólo en chrome y con Javascript
+* Comunidad pequeña 
+
+<h2>Cypress.io</h2>
+
+<h3>Pros</h3>
+
+* Comunidad emergente 
+* Buena documentación con ejemplos 
+* Bastante ágil en pruebas E2E
+* Orientado a desarrolladores
+* Excelente manejo de asincronismo
+
+<h3>Contras</h3>
+
+* Funciona sólo en chrome y con Javascript
+* Pruebas en paralelo sólo en versión de pago 
 
