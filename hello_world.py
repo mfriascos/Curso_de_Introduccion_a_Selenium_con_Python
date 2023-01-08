@@ -22,7 +22,7 @@ class HelloWorld(unittest.TestCase):
 
     #*Se realizan otras acciones para finalizar las pruebas
     @classmethod
-    def tearDown(cls) -> None:     #* Dará la salida    
+    def tearDownClass(cls) -> None:     #* Dará la salida    
         cls.driver.quit()          #*Cerrará la ventana y todas sus pestañas
         
 

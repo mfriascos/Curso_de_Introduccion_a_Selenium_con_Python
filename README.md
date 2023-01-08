@@ -101,6 +101,19 @@ pip3 install pyunitreport
 * **Test Runner**: Orquestador de la ejecución 
 * **Test Report**: Resumen de resultados
 
+# Encontrar Elementos con find_element 
+
+<h2> Selectores </h2>
+
+* ID 
+* Nombre del atributo
+* Nombre de la clase 
+* Nombre de la etiqueta
+* Xpath
+* Selector de CSS
+* Texto del Link
+* Texto parcial del link 
+
 
 
 
